@@ -25,6 +25,7 @@ Docker Desktop のインストールと設定は公式ガイドに従ってく�
 ## 参考リンク
 
 - [Supabase Docs](https://supabase.com/docs)
+  - [Supabase CLI](https://supabase.com/docs/guides/local-development/cli/getting-started?queryGroups=platform&platform=npm)
 
 ## Learn More
 
