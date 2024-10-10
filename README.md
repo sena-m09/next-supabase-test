@@ -26,6 +26,7 @@ Docker Desktop のインストールと設定は公式ガイドに従ってく�
 
 - [Supabase Docs](https://supabase.com/docs)
   - [Supabase CLI](https://supabase.com/docs/guides/local-development/cli/getting-started?queryGroups=platform&platform=npm)
+  - [Setting up Server-Side Auth for Next.js](https://supabase.com/docs/guides/auth/server-side/nextjs?queryGroups=router&router=app)
 
 ## Learn More
 
