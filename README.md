@@ -1,24 +1,27 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## クイックスタート
 
-First, run the development server:
+### Supabase
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Supabase はDockerコンテナを使ってローカルの開発スタックを管理します。Docker Desktopのインストールと設定は公式ガイドに従ってください
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. `npx supabase init` を実行します。
+2. `npx supabase start` を実行します。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+停止する時は、`npx supabase stop`を実行します。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Next.js
+
+1. `npm install` を実行します。
+2. `npm run dev` を実行します。
+3. `http://localhost:3000/` でサイトを確認できます。
+
+停止する時は、`Ctrl + C`を実行します。
+
+## 参考リンク
+
+- [Supabase Docs](https://supabase.com/docs)
 
 ## Learn More
 
