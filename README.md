@@ -4,10 +4,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ### Supabase
 
-Supabase はDockerコンテナを使ってローカルの開発スタックを管理します。Docker Desktopのインストールと設定は公式ガイドに従ってください
+Supabase は Docker コンテナを使ってローカルの開発スタックを管理します。  
+Docker Desktop のインストールと設定は公式ガイドに従ってください。
 
 1. `npx supabase init` を実行します。
 2. `npx supabase start` を実行します。
+3. `.env.local.sample` を参考に `.emv.local` ファイルを作成します。
+4. `npx supabase start` 実行後にターミナルに表示された、`API URL` を `NEXT_PUBLIC_SUPABASE_URL` に、`anon key` を `NEXT_PUBLIC_SUPABASE_ANON_KEY` にコピーします。
 
 停止する時は、`npx supabase stop`を実行します。
 
