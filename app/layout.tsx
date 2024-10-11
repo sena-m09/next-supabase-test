@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import Header from "@/components/layout/header";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn('min-h-dvh')}>
+        <Header />
         <header><Link href="/">header</Link></header>
         {children}
         <footer className="sticky top-full">footer</footer>
